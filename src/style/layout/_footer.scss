@@ -1,0 +1,36 @@
+
+
+.footer {
+    padding: 30px 0px;
+    &__links {
+        margin-left: auto;
+        @include devices(tablet) {
+            margin-left: 0;
+        }
+        &--item {
+            @include devices(tablet) {
+                display: block;
+                margin-bottom: 10px;
+                margin-left: 0px;
+            }
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            text-transform: capitalize;
+            color: $textColor;
+            margin-left: 50px;
+        }
+    }
+    &__copyRight {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: $textColor;
+        margin-left: 10rem;
+        @include devices(tablet) {
+            margin-left: 0rem;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+
+
+
+.socialLinks {
+    height: 210px;
+    position:absolute;
+    top: 168px;
+    right: 0;
+    border-radius: 40px 0px 0px 40px;
+    background-color: $mainColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    color: $textColor;
+    font-size: 20px;
+    padding: 0px 10px;
+    cursor: pointer;
+}

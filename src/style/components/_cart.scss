@@ -1,0 +1,40 @@
+
+
+.cart {
+    width: calc((100% / 4) - 20px);
+    @include devices(mediumScreen) {
+        width: calc((100% / 3) - 20px);
+    }
+    @include devices(tablet) {
+        width: calc((100% / 2) - 20px);
+    }
+    @include devices(mobile) {
+        width: 100%;
+    }
+    align-self: normal;
+    background-color: $cartBgColor;
+    &__img {
+        width: 100%;
+        height: fit-content;
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    &__details {
+        background-color: $cartBgColor;
+        padding: 20px;
+        .buttons-control {
+            .quantity-btn {
+                border: 1px solid $textColor;
+                padding: 10px 25px;
+                display: flex;
+                column-gap: 15px;
+                color: $textColor;
+                .decrement , .increment {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

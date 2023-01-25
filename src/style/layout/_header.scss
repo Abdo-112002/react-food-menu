@@ -1,0 +1,67 @@
+
+
+
+.header {
+    width: 100%;
+    height: 112px;
+    background-color: #0C0C0C;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        column-gap: 50px;
+        @include devices(tablet){
+            width: 300px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            right: 0;
+            flex-direction: column;
+            padding: 100px 80px;
+            background-color: $cartBgColor;
+            row-gap: 50px;
+            z-index: 1;
+            display: none;
+            &.active {
+                display: flex;
+            }
+        }
+        &--item {
+            font-size: 16px;
+            color: $secondColor;
+            text-transform: capitalize;
+            transition: all 300ms ease-in-out;
+            &:hover {
+                color: $textColor;
+                transform: translateY(-3px);
+            }
+        }
+        &--icons {
+            display: flex;
+            align-items: center;
+            column-gap: 15px;
+            .logIcon , .buy {
+                font-size: 21px;
+                color: $textColor;
+                position: relative;
+            }
+            .buy {
+                position: relative;
+                display: block;
+                &::before{
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
+                    top: 50%;
+                    right: -3px;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 7px;
+                    background-color: #DEC700;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}

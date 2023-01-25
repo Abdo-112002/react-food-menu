@@ -1,0 +1,20 @@
+
+
+
+.logo {
+    color: $textColor;
+    text-transform: capitalize;
+    h1 {
+        font-family: $mainFont;
+        font-size: 32px;
+        font-weight: 900;
+        // line-height: 37.5px;
+    }
+    span {
+        font-family: $specialFont;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.2;
+        // line-height: 46.7px;
+    }
+}
