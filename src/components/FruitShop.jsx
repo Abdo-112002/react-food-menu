@@ -4,14 +4,14 @@ import SectionTitle from './SectionTitle';
 
 function FruitShop() {
   let productsImg = [
-    '../public/product5.png',
-    '../public/product6.png',
-    '../public/product7.png',
-    '../public/product8.png',
-    '../public/product9.png',
-    '../public/product10.png',
-    '../public/product11.png',
-    '../public/product12.png',
+    './product5.png',
+    './product6.png',
+    './product7.png',
+    './product8.png',
+    './product9.png',
+    './product10.png',
+    './product11.png',
+    './product12.png',
 ]
 
     return (

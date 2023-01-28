@@ -26,6 +26,9 @@
             flex-basis: 0;
             border: 2px solid $secondColor;
             padding: 10px 15px;
+            @include devices(mobile) {
+                flex-basis: auto;
+            }
             input {
                 all: unset;
                 display: inline-block;

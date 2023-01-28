@@ -8,10 +8,10 @@ import SectionTitle from './SectionTitle'
 function FavoriteFruits() {
 
     let productsImg = [
-        '../public/product1.png',
-        '../public/product2.png',
-        '../public/product3.png',
-        '../public/product4.png',
+        './product1.png',
+        './/product2.png',
+        './product3.png',
+        './product4.png',
     ]
 
   return (
