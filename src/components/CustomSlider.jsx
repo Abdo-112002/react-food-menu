@@ -58,7 +58,7 @@ function CustomSlider() {
                 <div className='slider-item'>
                     <div className='clint-profile d-flex align-items-center column-gap'>
                         <div className='clint-profile--img'>
-                            <img src='../public/clint1.png' alt='clint-img'/>
+                            <img src='./clint1.png' alt='clint-img'/>
                         </div>
                         <div>
                             <AiFillStar/>
@@ -79,7 +79,7 @@ function CustomSlider() {
                 <div className='slider-item'>
                 <div className='clint-profile d-flex align-items-center column-gap'>
                         <div className='clint-profile--img'>
-                            <img src='../public/clint2.png' alt='clint-img'/>
+                            <img src='./clint2.png' alt='clint-img'/>
                         </div>
                         <div>
                             <AiFillStar/>
@@ -99,7 +99,7 @@ function CustomSlider() {
                 <div className='slider-item'>
                 <div className='clint-profile d-flex align-items-center column-gap'>
                         <div className='clint-profile--img'>
-                            <img src='../public/clint3.png' alt='clint-img'/>
+                            <img src='./clint3.png' alt='clint-img'/>
                         </div>
                         <div>
                             <AiFillStar/>
@@ -119,7 +119,7 @@ function CustomSlider() {
                 <div className='slider-item'>
                 <div className='clint-profile d-flex align-items-center column-gap'>
                         <div className='clint-profile--img'>
-                            <img src='../public/clint1.png' alt='clint-img'/>
+                            <img src='./clint1.png' alt='clint-img'/>
                         </div>
                         <div>
                             <AiFillStar/>
